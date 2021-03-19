@@ -1,14 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
     margin: 0;
     padding: 0;
     background-color: #121212;
-    color: #eeeeee;
+    color: #ffffff;
     font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .navbar{
     height: 64px;
-    padding-left: 24px;
+    padding: 0 0 0 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,32 +17,19 @@ body{
 .logo{
     font-size: 24px;
 }
-.navlink{
-    color: #eeeeee;
-    text-decoration: none;
-    height: 64px;
-    padding: 0 24px;
-    transition: 250ms;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.navlink:hover{
-    background-color: #242424;
-}
 .welcome{
-    font-size: 32px;
     text-align: center;
-    padding: 236.5px 0;
+    font-size: 32px;
+    padding: 232px 0;
     background: linear-gradient(135deg, #00ddff,#0033ff);
 }
 .list{
-    background-color: #eeeeee;
+    background-color: #ffffff;
+    color: #000000;
     text-align: center;
     padding: 24px;
 }
 .footer{
-    text-align: center;
     background-color: #181818;
 }
 .socials{
@@ -50,14 +38,18 @@ body{
     justify-content: center;
     align-items: center;
 }
+.line{
+    height: 1px;
+    background-color: #242424;
+}
 .copyright{
     height: 64px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.linkw{
-    color: #eeeeee;
+.blocklink{
+    color: #ffffff;
     text-decoration: none;
     height: 64px;
     padding: 0 24px;
@@ -65,8 +57,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
-.linkw:hover{
+.blocklink:hover{
     background-color: #242424;
 }
 .linkb{
@@ -83,8 +76,4 @@ body{
 .h3{
     color: #121212;
     font-size: 20px;
-}
-.line{
-    height: 1px;
-    background-color: #242424;
 }
