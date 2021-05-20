@@ -1,27 +1,32 @@
-@font-face{
+@font-face {
     font-family: 'Open Sans';
     src: url(font.ttf);
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
-body{
+
+body {
     background-color: #121212;
     color: #ffffff;
     font-size: 16px;
 }
-.navbar{
+
+.navbar {
     padding: 0 0 0 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.logo{
+
+.logo {
     font-size: 24px;
 }
-.welcome{
+
+.welcome {
     height: 512px;
     font-size: 32px;
     background: linear-gradient(135deg, #00ddff,#0033ff);
@@ -30,32 +35,38 @@ body{
     justify-content: center;
     text-align: center;
 }
-.list{
+
+.list {
     background-color: #ffffff;
     color: #000000;
     text-align: center;
     padding: 16px;
 }
-.footer{
+
+.footer {
     background-color: #181818;
 }
-.socials{
+
+.socials {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.line{
+
+.line {
     height: 1px;
     background-color: #242424;
 }
-.copyright{
+
+.copyright {
     height: 64px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.blocklink{
+
+.blocklink {
     color: #ffffff;
     text-decoration: none;
     height: 64px;
@@ -66,19 +77,24 @@ body{
     align-items: center;
     text-align: center;
 }
-.blocklink:hover{
+
+.blocklink:hover {
     background-color: #242424;
 }
-.linkb{
+
+.linkb {
     color: #0033ff;
     text-decoration: none;
 }
-.linkb:hover{
+
+.linkb:hover {
     text-decoration: underline;
 }
-.h2{
+
+.h2 {
     font-size: 24px;
 }
-.h3{
+
+.h3 {
     font-size: 20px;
 }
